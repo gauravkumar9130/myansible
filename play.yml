@@ -11,7 +11,7 @@
      state: present
   - name: create file
     copy:
-     content: "Hello Ansible with Jenkins"
+     content: "Hello Ansible with Jenkins Updated"
      dest: /var/www/html/index.html
   - name: restart service
     service:
